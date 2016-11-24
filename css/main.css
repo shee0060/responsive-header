@@ -35,18 +35,19 @@ header h1 {
 
 nav ul {
   list-style-type: none;
-  padding: .75em;
   font-size: 1.125rem;
 }
 
 nav a {
   text-decoration: none;
   color: #6c8fe0;
+  white-space: normal;
+  padding: .5em .75em;
 }
 
 nav a:hover {
-  background-color:#6c8fe0;
-  color:  #fff;
+  background-color: #6c8fe0;
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
