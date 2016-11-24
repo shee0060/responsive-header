@@ -36,9 +36,11 @@ header h1 {
 nav ul {
   list-style-type: none;
   font-size: 1.125rem;
+  padding: .75em;
 }
 
 nav a {
+  display: block;
   text-decoration: none;
   color: #6c8fe0;
   white-space: normal;
