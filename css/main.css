@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,11 +18,12 @@ html {
 }
 
 body {
-
+  margin: .9rem;
 }
 
 header {
-
+  background-color: #18294f;
+  color: #fff;
 }
 
 header h1 {
@@ -30,7 +31,7 @@ header h1 {
 }
 
 nav ul {
-
+  font-size:
 }
 
 nav a {
@@ -38,7 +39,8 @@ nav a {
 }
 
 nav a:hover {
-
+  background-color: #fff;
+  color: #6c8fe0;
 }
 
 @media only screen and (min-width: 25em) {
